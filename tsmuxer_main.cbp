@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tsmuxer_main"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libmediation\;CMake Files\tsMuxerGUI\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\Cellar\;CMake Files\..\..\..\..\usr\local\Cellar\qt\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Network\;CMake Files\tsMuxer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediation">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/libmediation/libmediation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/libmediation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/libmediation"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 mediation"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediation/fast">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/libmediation/libmediation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/libmediation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/libmediation"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 mediation/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsmuxer">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsmuxer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/tsMuxer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/../libmediation"/>
+					<Add directory="/usr/local/opt/freetype/include/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 tsmuxer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsmuxer/fast">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsmuxer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/tsMuxer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/../libmediation"/>
+					<Add directory="/usr/local/opt/freetype/include/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 tsmuxer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsMuxerGUI">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI.app/Contents/MacOS/tsMuxerGUI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI_autogen/include"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/./mkspecs/macx-clang"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtMultimedia.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtMultimedia.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtNetwork.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtNetwork.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 tsMuxerGUI"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsMuxerGUI/fast">
+				<Option output="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI.app/Contents/MacOS/tsMuxerGUI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTSMUXER_VERSION=&quot;git-714642d&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI_autogen/include"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtGui.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtCore.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/./mkspecs/macx-clang"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtMultimedia.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtMultimedia.framework/Headers"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtNetwork.framework"/>
+					<Add directory="/usr/local/Cellar/qt/5.14.1/lib/QtNetwork.framework/Headers"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 tsMuxerGUI/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsMuxerGUI_autogen">
+				<Option working_dir="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 tsMuxerGUI_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/fs/directory.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/fs/directory.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/fs/osdep/file_unix.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/system/terminatablethread.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/system/terminatablethread.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/types/types.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/types/types.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/AbstractDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/AbstractDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/aac.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/aac.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/aacStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/aacStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/abstractMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/abstractMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ac3Codec.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ac3Codec.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ac3StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ac3StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/avCodecs.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/avCodecs.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bitStream.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bitStream.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/blurayHelper.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/blurayHelper.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedFileReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedFileReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedFileWriter.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedFileWriter.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedReaderManager.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/bufferedReaderManager.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/combinedH264Demuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/combinedH264Demuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/convertUTF.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/convertUTF.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/dtsStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/dtsStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/dvbSubStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/dvbSubStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/h264StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/h264StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/hevc.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/hevc.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/hevcStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/hevcStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ioContextDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/ioContextDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/iso_writer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/iso_writer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/lpcmStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/lpcmStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/main.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/matroskaDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/matroskaDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/matroskaParser.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/matroskaParser.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/metaDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/metaDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/movDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/movDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mp3Codec.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mp3Codec.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpeg2StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpeg2StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegAudioStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegAudioStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegVideo.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/mpegVideo.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/muxerManager.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/muxerManager.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/nalUnits.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/nalUnits.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/osdep/textSubtitlesRenderFT.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/osdep/textSubtitlesRenderFT.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/pesPacket.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/pesPacket.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/programStreamDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/programStreamDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/psgStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/psgStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/simplePacketizerReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/simplePacketizerReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/singleFileMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/singleFileMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/srtStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/srtStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/textSubtitles.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/textSubtitles.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/textSubtitlesRender.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/textSubtitlesRender.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsPacket.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/tsPacket.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/utf8Converter.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/utf8Converter.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vc1Parser.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vc1Parser.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vc1StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vc1StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vod_common.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/vod_common.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/wave.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/wave.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/checkboxedheaderview.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/checkboxedheaderview.h">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/images.qrc">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/main.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/muxForm.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/muxForm.h">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/muxForm.ui">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI.icns">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI_autogen/EWIEGA46WW/qrc_images.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI_autogen/EWIEGA46WW/qrc_images.cpp.rule">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsMuxerGUI_autogen/mocs_compilation.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsmuxerwindow.cpp">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsmuxerwindow.h">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/tsmuxerwindow.ui">
+			<Option target="tsMuxerGUI"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/libmediation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmediation\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tsMuxerGUI\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxerGUI/images.qrc">
+			<Option virtualFolder="CMake Files\tsMuxerGUI\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFMediaPlayerServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5Multimedia_AVFServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5Multimedia_CoreAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/../../../../usr/local/Cellar/qt/5.14.1/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\Cellar\qt\5.14.1\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/zhangbin/myProjects/tsMuxer/tsMuxer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tsMuxer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

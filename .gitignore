@@ -1,3 +1,13 @@
+##cmake
+cmake-build-debug/
+tsMuxerGUI/tsMuxerGUI.app
+tsMuxerGUI/CMakeFiles/
+tsMuxerGUI/tsMuxerGUI_autogen/
+CMakeFiles/
+tsMuxer/CMakeFiles/
+libmediation/CMakeFiles/
+build/
+
 ##### C++
 # Prerequisites
 *.d

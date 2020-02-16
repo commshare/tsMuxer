@@ -25,6 +25,11 @@ add_definitions("-DTSMUXER_VERSION=\"${TSMUXER_VERSION}\"")
 
 add_subdirectory (libmediation)
 add_subdirectory (tsMuxer)
+
+##add by me https://www.cnblogs.com/rickyk/p/3872568.html
+option(TSMUXER_GUI "This is a option for address" ON)
+set(TSMUXER_GUI ON)
+##find qt5 cmake module :https://blog.csdn.net/aiyun5666/article/details/101915628
 if(TSMUXER_GUI)
 	add_subdirectory (tsMuxerGUI)
 endif()

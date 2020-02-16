@@ -9,6 +9,13 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
   set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
+set(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.14.1/")
+set(Qt5_DIR "/usr/local/Cellar/qt/5.14.1/")
+set(Qt5Widgets_DIR "${Qt5_DIR}/lib/cmake/Qt5Widgets")
+set(Qt5Network_DIR "${Qt5_DIR}/lib/cmake/Qt5Network")
+set(Qt5LinguistTools_DIR "${Qt5_DIR}/lib/cmake/Qt5LinguistTools")
+
+
 find_package(Qt5 COMPONENTS Widgets Multimedia REQUIRED)
 
 set(tsmuxer_gui_sources
@@ -20,6 +27,7 @@ set(tsmuxer_gui_sources
   checkboxedheaderview.cpp
   images.qrc
 )
+
 
 add_executable(tsMuxerGUI ${tsmuxer_gui_sources})
 target_link_libraries(tsMuxerGUI Qt5::Widgets Qt5::Multimedia)
