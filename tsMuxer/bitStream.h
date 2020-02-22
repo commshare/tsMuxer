@@ -5,6 +5,7 @@
 #include <limits.h>
 #include <types/types.h>
 
+//bit位数
 const static unsigned INT_BIT = CHAR_BIT * sizeof(unsigned);
 
 class BitStreamException : public std::exception
@@ -29,26 +30,31 @@ class BitStream
     inline void setBuffer(uint8_t* buffer, uint8_t* end)
     {
         if (buffer >= end)
-            THROW_BITSTREAM_ERR;
+            THROW_BITSTREAM_ERR;//抛出异常
+        //算比特位，计算整个buffer的比特数目
         m_totalBits = (unsigned)(end - buffer) * 8;
+        //static的，为了只初始化一次
         if (m_maskInitialized == 0)
         {
+            //m_masks数组赋值
             for (unsigned i = 0; i < INT_BIT; i++) m_masks[i] = (1 << i) - 1;
             m_masks[INT_BIT] = UINT_MAX;
             m_maskInitialized = 1;
         }
+        //m_initBuffer 和 m_buffer 每次都被赋值么?todo
         m_initBuffer = m_buffer = (unsigned*)buffer;
     }
     unsigned m_totalBits;
     unsigned* m_buffer;
     unsigned* m_initBuffer;
     static int m_maskInitialized;
-    static unsigned m_masks[INT_BIT + 1];
+    static unsigned m_masks[INT_BIT + 1];//最后一个位置INT_BIT 要存UINT_MAX，所以总大小是INT_BIT + 1
 };
 
 class BitStreamReader : public BitStream
 {
    private:
+    //就是要返回32位无符号整型
     inline unsigned getCurVal(unsigned* buff)
     {
         uint8_t* tmpBuf = (uint8_t*)buff;
@@ -56,6 +62,7 @@ class BitStreamReader : public BitStream
             return my_ntohl(*buff);
         else if (m_totalBits >= 24)
             return (tmpBuf[0] << 24) + (tmpBuf[1] << 16) + (tmpBuf[2] << 8);
+        //输入一个16位无符号整型==> 32位无符号整型
         else if (m_totalBits >= 16)
             return (tmpBuf[0] << 24) + (tmpBuf[1] << 16);
         else if (m_totalBits >= 8)

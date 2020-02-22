@@ -453,12 +453,15 @@ string strToLowerCase(const string& src)
     return res;
 }
 
+//long 4 bytes
+//自己实现的：val是网络来的，[0]是首字节，最大的那个
 uint32_t my_ntohl(const uint32_t val)
 {
     uint8_t* tmp = (uint8_t*)&val;
     return tmp[3] + (tmp[2] << 8) + (tmp[1] << 16) + (tmp[0] << 24);
 }
 
+//short 2 byte
 uint16_t my_ntohs(const uint16_t val)
 {
     uint8_t* tmp = (uint8_t*)&val;
@@ -470,11 +473,15 @@ char* strnstr(const char* s1, const char* s2, size_t len)
     size_t l1 = len, l2;
 
     l2 = strlen(s2);
+    //s2 长度是0，那么整个s1与s2都不相同，返回s1
     if (!l2)
         return (char*)s1;
+    //逐个字节比较
     while (l1 >= l2)
     {
+        //逐个字节比较
         l1--;
+        //对字节比较，     memcmp -- compare byte string，一致就返回0
         if (!memcmp(s1, s2, l2))
             return (char*)s1;
         s1++;
@@ -482,6 +489,7 @@ char* strnstr(const char* s1, const char* s2, size_t len)
     return NULL;
 }
 
+//返回一个随机的32位整型
 uint32_t random32()
 {
     static std::random_device dev;
