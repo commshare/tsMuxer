@@ -6,7 +6,8 @@
 #include <vector>
 
 #include "bufferedFileReader.h"
-
+// a buffer reade manager to manage AbstractReader
+//what is the diffence between BufferedReader and AbstractReader
 class BufferedReaderManager
 {
    public:

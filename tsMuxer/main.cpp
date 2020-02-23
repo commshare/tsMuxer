@@ -18,6 +18,7 @@
 #include "textSubtitles.h"
 #include "tsMuxer.h"
 #include "utf8Converter.h"
+#include "log/logger.h"
 
 using namespace std;
 
@@ -119,13 +120,16 @@ DiskType checkBluRayMux(const char* metaFileName, int& autoChapterLen, vector<do
 
 void detectStreamReader(const char* fileName, MPLSParser* mplsParser, bool isSubMode)
 {
+        //META DEMUXER TO GET STREAM INFO
     DetectStreamRez streamInfo = METADemuxer::DetectStreamReader(readManager, fileName, mplsParser == 0);
+    //RESERVE STREAM INFO
     vector<CheckStreamRez>& streams = streamInfo.streams;
 
     std::vector<MPLSStreamInfo> pgStreams3D;
     if (mplsParser && mplsParser->isDependStreamExist)
         pgStreams3D = mplsParser->getPgStreams();
 
+    //SHOW STREAM INFO
     for (unsigned i = 0; i < streams.size(); i++)
     {
         if (streams[i].trackID != 0)
@@ -558,6 +562,8 @@ All parameters in this group start with two dashes:
 
 int main(int argc, char** argv)
 {
+    detectStreamReader(argv[1], 0, false);
+    return 0;
 #ifdef _WIN32
     auto argvWide = CommandLineToArgvW(GetCommandLineW(), &argc);
     std::vector<std::string> argv_utf8;
@@ -594,6 +600,7 @@ int main(int argc, char** argv)
     // mo.parse("h:/BDMV/MovieObject.bdmv");
     // int moLen = mo.compose(moBuffer, sizeof(moBuffer));
     // file.write(moBuffer, moLen);
+    LTRACE(LT_INFO, 2, "argv[1] " << argv[1]);
 
     try
     {
@@ -699,7 +706,7 @@ int main(int argc, char** argv)
                     prevFileOffset += mplsParser.m_playItems[i].OUT_time - mplsParser.m_playItems[i].IN_time;
                 }
             }
-            else
+            else //mp4
                 detectStreamReader(argv[1], 0, false);
             cout << endl;
             return 0;

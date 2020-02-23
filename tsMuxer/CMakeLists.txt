@@ -53,7 +53,7 @@ add_executable (tsmuxer
   vc1StreamReader.cpp
   vod_common.cpp
   wave.cpp
-)
+  log/logger.h log/logger.cpp)
 
 if(TSMUXER_STATIC_BUILD)
   if(MSVC)

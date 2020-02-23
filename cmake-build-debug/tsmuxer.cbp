@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tsmuxer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libmediation\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsmuxer">
+				<Option output="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/tsmuxer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/tsmuxer"/>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 tsmuxer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tsmuxer/fast">
+				<Option output="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/tsmuxer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/tsmuxer"/>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 tsmuxer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediation">
+				<Option output="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/libmediation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation/mediation"/>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 mediation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mediation/fast">
+				<Option output="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/libmediation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation/mediation"/>
+					<Add directory="/home/zhangbin/myproject/hls/tsMuxer/libmediation"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 mediation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zhangbin/myproject/hls/tsMuxer/cmake-build-debug/libmediation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/containers/safequeue.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/directory.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/directory.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/file.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/logstream.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/osdep/file_unix.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/systemlog.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/fs/textfile.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/condvar.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/mutex.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/osdep/condvar_linux.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/osdep/mutex_linux.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/osdep/terminatablethread_linux.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/system/terminatablethread.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/time/time.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/time/time.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/types/types.cpp">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/types/types.h">
+			<Option target="mediation"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/AbstractDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/BufferedReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/aac.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/aac.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/aacStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/aacStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractCoreContext.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractVideoDecoder.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/abstractreader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ac3Codec.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ac3Codec.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ac3StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ac3StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/avCodecs.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/avCodecs.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/avPacket.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/base64.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/base64.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bitStream.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bitStream.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/blank_patterns.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/blurayHelper.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/blurayHelper.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bswap.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedFileReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedFileReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedFileWriter.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedFileWriter.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedRandomAccessReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedReaderManager.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/bufferedReaderManager.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/combinedH264Demuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/combinedH264Demuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/convertUTF.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/convertUTF.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/crc.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/crc.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/crc32.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/dtsStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/dtsStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/dvbSubStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/dvbSubStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/h264StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/h264StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/hevc.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/hevc.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/hevcStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/hevcStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ioContextDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/ioContextDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/iso_writer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/iso_writer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/lpcmStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/lpcmStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/main.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/matroskaDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/matroskaDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/matroskaParser.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/matroskaParser.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/metaDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/metaDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/movDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/movDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mp3Codec.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mp3Codec.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpeg2StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpeg2StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegAudioStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegAudioStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegVideo.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/mpegVideo.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/muxerManager.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/muxerManager.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/nalUnits.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/nalUnits.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/osdep/textSubtitlesRenderFT.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/osdep/textSubtitlesRenderFT.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/pesPacket.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/pesPacket.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/programStreamDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/programStreamDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/psgStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/psgStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/scrambledInfo.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/simplePacketizerReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/simplePacketizerReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/singleFileMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/singleFileMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/srtStreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/srtStreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/stdafx.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/stdafx.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/subTrackFilter.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/textSubtitles.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/textSubtitles.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/textSubtitlesRender.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/textSubtitlesRender.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsDemuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsDemuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsMuxer.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsMuxer.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsPacket.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/tsPacket.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/utf8Converter.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/utf8Converter.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vc1Parser.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vc1Parser.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vc1StreamReader.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vc1StreamReader.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vodCoreException.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vodTransport.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vod_common.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/vod_common.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/wave.cpp">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/tsMuxer/src/wave.h">
+			<Option target="tsmuxer"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zhangbin/myproject/hls/tsMuxer/libmediation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmediation\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

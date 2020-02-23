@@ -31,6 +31,7 @@
 #include "vc1StreamReader.h"
 #include "vodCoreException.h"
 #include "vod_common.h"
+#include "log/logger.h"
 
 using namespace std;
 
@@ -616,21 +617,28 @@ DetectStreamRez METADemuxer::DetectStreamReader(BufferedReaderManager& readManag
     if (demuxer)
     {
         int fileBlockSize = demuxer->getFileBlockSize();
+        LTRACE(LT_INFO, 2, "demuxer fileBlockSize "<<fileBlockSize);
 
         demuxer->openFile(fileName);
         int64_t discardedSize = 0;
+        //A MAP ,id to StreamData
         DemuxedData demuxedData;
+        //PID TO TRACK INFO MAP
         map<uint32_t, TrackInfo> acceptedPidMap;
+        //GET TRACK MAP
         demuxer->getTrackList(acceptedPidMap);
+        //Iterator track info map to get track id set
         PIDSet acceptedPidSet;
         for (map<uint32_t, TrackInfo>::const_iterator itr = acceptedPidMap.begin(); itr != acceptedPidMap.end(); ++itr)
             acceptedPidSet.insert(itr->first);
+        // iterator streamdata map to reserve every streamdata's memory size ??
         for (DemuxedData::iterator itr = demuxedData.begin(); itr != demuxedData.end(); ++itr)
         {
             StreamData& vect = itr->second;
             vect.reserve(fileBlockSize);
         }
-
+        int sample_block_size = DETECT_STREAM_BUFFER_SIZE / fileBlockSize;
+        CLOG <<"sample_block_size "<<sample_block_size;
         for (int i = 0; i < DETECT_STREAM_BUFFER_SIZE / fileBlockSize; i++)
             demuxer->simpleDemuxBlock(demuxedData, acceptedPidSet, discardedSize);
 

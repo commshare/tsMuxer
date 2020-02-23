@@ -13,13 +13,14 @@
 #include "math.h"
 #include "subTrackFilter.h"
 #include "vodCoreException.h"
+#include "log/logger.h"
 
 using namespace std;
 
 struct MovDemuxer::MOVParseTableEntry
 {
-    uint32_t type;
-    int (MovDemuxer::*parse)(MOVAtom atom);
+    uint32_t type; //BOX TYPE
+    int (MovDemuxer::*parse)(MOVAtom atom); //HOW TO PARSE ,A FUNCTION
 };
 
 static const int MP4ESDescrTag = 0x03;
@@ -27,7 +28,34 @@ static const int MP4DecConfigDescrTag = 0x04;
 static const int MP4DecSpecificDescrTag = 0x05;
 
 #define MKTAG(a, b, c, d) (a | (b << 8) | (c << 16) | (d << 24))
-
+//https://www.geeksforgeeks.org/convert-character-array-to-string-in-c/
+// converts character array
+// to string and returns it
+string convertToString(char* a, int size)
+{
+    int i;
+    string s = "";
+    for (i = 0; i < size; i++) {
+        s = s + a[i];
+    }
+    return s;
+}
+//reverse MKTAG !!!
+//https://stackoverflow.com/questions/3784263/converting-an-int-into-a-4-byte-char-array-c
+std::string boxtype(uint32_t type)
+{
+    //unsigned  !!!not support unsigned char to string
+    char bytes[4];
+    bytes[0]= (type >> 24) & 0xFF;
+    bytes[1] = (type>>16)& 0xFF;
+    bytes[2] = (type >>8) &0xFF;
+    bytes[3] = (type) & 0xFF;
+    printf("%x %x %x %x\n", (unsigned char)bytes[0],
+           (unsigned char)bytes[1],
+           (unsigned char)bytes[2],
+           (unsigned char)bytes[3]);
+    return std::string(bytes);
+}
 static const char* const mov_mdhd_language_map[] = {
     // 0-9
     "eng", "fra", "ger", "ita", "dut", "sve", "spa", "dan", "por", "nor", "heb", "jpn", "ara", "fin", "gre", "ice",
@@ -481,7 +509,7 @@ class MovParsedSRTTrackData : public ParsedTrackPrivData
     int sttsCnt;
     int64_t m_timeOffset;
 };
-
+//TYPE AND PARSE FUNCTION
 const MovDemuxer::MOVParseTableEntry MovDemuxer::mov_default_parse_table[] = {
     {MKTAG('a', 'v', 's', 's'), &MovDemuxer::mov_read_extradata},
     {MKTAG('c', 'o', '6', '4'), &MovDemuxer::mov_read_stco},  //
@@ -561,12 +589,15 @@ MovDemuxer::MovDemuxer(const BufferedReaderManager& readManager) : IOContextDemu
     m_firstDemux = true;
     m_fileIterator = 0;
     m_firstHeaderSize = 0;
+    LTRACE(LT_INFO, 2, "MovDemuxer");
+
 }
 
 void MovDemuxer::readClose() {}
 
 void MovDemuxer::openFile(const std::string& streamName)
 {
+    LTRACE(LT_INFO, 2, "openFile "<<streamName);
     m_fileName = streamName;
     found_moov = 0;
     m_mdat_pos = 0;
@@ -589,6 +620,7 @@ void MovDemuxer::openFile(const std::string& streamName)
     m_processedBytes = 0;
     m_isEOF = false;
     readHeaders();
+    CLOG <<"m_mdat_pos "<<m_mdat_pos;
     if (m_mdat_pos && m_processedBytes != m_mdat_pos)
         url_fseek(m_mdat_pos);
     buildIndex();
@@ -616,6 +648,7 @@ void MovDemuxer::buildIndex()
                 chunks.push_back(make_pair(st->chunk_offsets[j] - m_mdat_pos, i));
             }
         }
+        //todo 按照啥排序，第一个元素么？
         sort(chunks.begin(), chunks.end());
     }
 }
@@ -630,6 +663,7 @@ void MovDemuxer::readHeaders()
         THROW(ERR_MOV_PARSE, "error reading header");
     if (!found_moov)
         THROW(ERR_MOV_PARSE, "moov atom not found");
+    CLOG <<"readHeaders OK";
 }
 
 int MovDemuxer::simpleDemuxBlock(DemuxedData& demuxedData, const PIDSet& acceptedPIDs, int64_t& discardSize)
@@ -779,7 +813,7 @@ int MovDemuxer::mov_read_default(MOVAtom atom)
     int64_t total_size = 0;
     MOVAtom a;
     int err = 0;
-
+    CLOG<<"mov_read_default  atom.offset "<<atom.offset <<" atom.size "<<atom.size;
     a.offset = atom.offset;
     if (atom.size < 0)
         atom.size = LLONG_MAX;
@@ -813,6 +847,11 @@ int MovDemuxer::mov_read_default(MOVAtom atom)
         a.size = FFMIN(a.size, atom.size - total_size);
 
         int64_t left = a.size;
+        CLOG <<" a type "<< a.type <<"  "<<boxtype(a.type);
+        if(boxtype(a.type)=="ftyp")
+        {
+            CLOG <<"====ftyp";
+        }
         for (int i = 0; mov_default_parse_table[i].type; i++)
         {
             if (mov_default_parse_table[i].type == a.type)
@@ -1170,6 +1209,8 @@ int MovDemuxer::mov_read_moov(MOVAtom atom)
 {
     if (mov_read_default(atom) < 0)
         return -1;
+    //read moov ok ,found moov
+    CLOG<<"read moov ok ,found moov";
     found_moov = 1;
     return 0;
 }

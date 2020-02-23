@@ -67,6 +67,7 @@ class MovDemuxer : public IOContextDemuxer
     std::vector<MOVTrackExt> trex_data;
     int64_t fileDuration;
     int isom;
+    //EVERY PAIR IS BOX POS to m_mdat_pos vs box in chunk number
     std::vector<std::pair<int64_t, uint64_t>> chunks;
     int m_curChunk;
     AVPacket m_deliveredPacket;

@@ -10,6 +10,7 @@ BufferedReaderManager::BufferedReaderManager(uint32_t readersCnt, uint32_t block
 {
     init(blockSize, allocSize, prereadThreshold);
 
+    //create readersCnt BufferedFileReader pointer and save them to m_fileReaders vector
     for (uint32_t i = 0; i < readersCnt; i++)
     {
         BufferedReader* reader = new BufferedFileReader(m_blockSize, m_allocSize, m_prereadThreshold);
@@ -22,7 +23,9 @@ BufferedReaderManager::BufferedReaderManager(uint32_t readersCnt, uint32_t block
 
 void BufferedReaderManager::init(uint32_t blockSize, uint32_t allocSize, uint32_t prereadThreshold)
 {
+    //default is 2M B
     m_blockSize = blockSize > 0 ? blockSize : DEFAULT_FILE_BLOCK_SIZE;
+    //alloc size is bigger than block size ,it is equal to block size + 16 K B
     m_allocSize = allocSize > 0 ? allocSize : m_blockSize + MAX_AV_PACKET_SIZE;
     m_prereadThreshold = prereadThreshold > 0 ? prereadThreshold : m_blockSize / 2;
 }
@@ -31,11 +34,11 @@ BufferedReaderManager::~BufferedReaderManager()
 {
     for (size_t i = 0; i < m_fileReaders.size(); i++)
     {
-        delete m_fileReaders[i];  // need to define destruction order first. This object MUST be deleted after
+        delete m_fileReaders[i];  // todo ? need to define destruction order first. This object MUST be deleted after
                                   // MCVodStreamer
     }
 }
-
+//RETURN THE getReaderCount MIN reader
 AbstractReader* BufferedReaderManager::getReader(const char* streamName)
 {
     uint32_t minReaderCnt = UINT_MAX;
