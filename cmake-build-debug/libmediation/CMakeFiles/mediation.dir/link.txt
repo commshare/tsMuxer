@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmediation.a  CMakeFiles/mediation.dir/fs/directory.cpp.o CMakeFiles/mediation.dir/types/types.cpp.o CMakeFiles/mediation.dir/system/terminatablethread.cpp.o CMakeFiles/mediation.dir/fs/osdep/file_unix.cpp.o
-/usr/bin/ranlib libmediation.a
